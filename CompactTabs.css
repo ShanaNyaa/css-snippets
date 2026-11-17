@@ -6,6 +6,11 @@
 * @website https://github.com/Krammeth
 */
 
+:root {
+    --dms-tabs: true;
+    /* --server-tabs: true; */
+}
+
 @container style(--dms-tabs:true) {
     .scroller_Bce46W[data-list-id^="private-channels-uid_"] {
         scrollbar-width: 0;
